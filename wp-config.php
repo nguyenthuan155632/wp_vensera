@@ -23,13 +23,16 @@
 define('DB_NAME', 'vensera');
 
 /** MySQL database username */
-define('DB_USER', 'vensera');
+// define('DB_USER', 'vensera');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '15563200025ff0');
+// define('DB_PASSWORD', '15563200025ff0');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'vensera.c0mbfmyufmzf.us-west-2.rds.amazonaws.com');
+// define('DB_HOST', 'vensera.c0mbfmyufmzf.us-west-2.rds.amazonaws.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
