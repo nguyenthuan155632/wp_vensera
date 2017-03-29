@@ -5482,7 +5482,7 @@ div.breadcrumbs ul.breadcrumb li +li:before {
 .index3 .wpb_accordion {
   border-top: 0px;
 }
-.page.page-template-page-home .vertical_megamenu-header:hover .vc_wp_custommenu {
+/*.page.page-template-page-home .vertical_megamenu-header:hover .vc_wp_custommenu {
   position: absolute;
   width: 90%;
   z-index: 1001;
@@ -5500,7 +5500,7 @@ div.breadcrumbs ul.breadcrumb li +li:before {
 .archive .vertical_megamenu-header .vc_wp_custommenu,
 .single .vertical_megamenu-header .vc_wp_custommenu {
   display: none;
-}
+}*/
 .client-wrapper-b {
   padding: 10px 20px;
   background-color: #eee;
