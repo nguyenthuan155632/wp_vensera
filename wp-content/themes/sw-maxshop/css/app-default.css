@@ -1,6 +1,6 @@
 @font-face {
   font-family: androgyne;
-  src: url("../fonts/Androgyne_TB.otf") format("opentype");
+  src: url("../fonts/Androgyne.ttf") format("truetype");
 }
 overflow: hidden;
 .row {
