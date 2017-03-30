@@ -309,7 +309,7 @@
   }
   .header-style4 .sidebar-top-menu .top-search input,
   .header-style6 .sidebar-top-menu .top-search input {
-    width: 380px;
+    width: 290px;
   }
   .box-layout .header-style4 .sidebar-top-menu .top-search input,
   .box-layout .header-style6 .sidebar-top-menu .top-search input {
@@ -512,7 +512,7 @@
     background: none repeat scroll 0 0 white;
     position: absolute;
     top: 40px;
-    width: 92%;
+    width: 96%;
     z-index: 999;
     border-right: 1px solid #ddd;
   }
@@ -668,6 +668,9 @@
   .vertical_megamenu ul.vertical-megamenu {
     display: none;
   } 
+  .header-style4 .sidebar-top-menu .top-search input, .header-style6 .sidebar-top-menu .top-search input {
+    width: 90%;
+  }
 }
 @media (max-width: 768px) {
   .cat-wrapper:after {
@@ -983,6 +986,9 @@
   .rtl [class*="col-xs-"] {
     float: right;
   }
+  .header-style4 .sidebar-top-menu .top-search input, .header-style6 .sidebar-top-menu .top-search input {
+    width: 90%;
+  }
 }
 @media (max-width: 767px) and (min-width: 481px) {
   #header .top-header .sidebar-top-header .top-search {
@@ -1288,19 +1294,30 @@
     width: 50%;
     float: left;
   }
+  .woocommerce-account #contents .entry-content nav.woocommerce-MyAccount-navigation {
+    float: none;
+    margin-right: 0px;
+  }
+  .woocommerce-account #contents .entry-content .woocommerce-MyAccount-content table.my_account_orders {
+    display: block;
+  }
+  .woocommerce-account #contents .entry-content nav.woocommerce-MyAccount-navigation > ul,
+  .woocommerce-account #contents .entry-content nav.woocommerce-MyAccount-navigation > ul > li {
+    display: inline-block;
+  }
 }
 @media (max-width: 480px) {
   .products-loop.grid li {
     width: 100%;
   }
   .topsearch-entry {
-    width: 272px !important;
+    /*width: 272px !important;*/
   }
   .topsearch-entry .cat-wrapper {
     display: none !important;
   }
   .topsearch-entry input {
-    width: 253px !important;
+    width: 90% !important;
   }
   .header-style4 .sidebar-top-menu .phone-icon-menu,
   .header-style6 .sidebar-top-menu .phone-icon-menu {
@@ -1653,6 +1670,33 @@
   .rtl.woocommerce-page .products-nav .catalog-ordering {
     float: right;
   }
+  .header-style4 .sidebar-top-menu .top-search, .header-style6 .sidebar-top-menu .top-search {
+    width: 93%;
+  }
+}
+@media (max-width: 400px) {
+  .header-style4 .top-form-minicart .top-minicart, .header-style6 .top-form-minicart .top-minicart {
+    padding-right: 12px;
+  }
+  .header-style4 .top-form-minicart .top-minicart:before, .header-style6 .top-form-minicart .top-minicart:before {
+    content: "";
+  }
+  .header-style4 .top-form-minicart, .header-style6 .top-form-minicart {
+    background-image: none;
+    padding-left: 12px;
+  }
+  .yt-main-menu {
+    padding: 0;
+  }
+  .sidebar-top-menu .top-login {
+    margin-right: 0;
+  }
+  .sidebar-top-menu .top-login .div-logined {
+    padding: 0 16px 0 0;
+  }
+  .top-form-minicart .wrapp-minicart .minicart-padding {
+    margin-right: 16px;
+  }
 }
 @media (max-width: 360px) and (min-width: 320px) {
   .header-style4 .sidebar-top-menu .phone-icon-menu,
@@ -1707,6 +1751,28 @@
   .header-style8 #header .header-msg .sidebar-top .widget #lang_sel ul li {
     border-left: 1px #444 solid;
   }
+  .header-style4 .top-form-minicart .top-minicart, .header-style6 .top-form-minicart .top-minicart {
+    padding-right: 12px;
+  }
+  .header-style4 .top-form-minicart .top-minicart:before, .header-style6 .top-form-minicart .top-minicart:before {
+    content: "";
+  }
+  .header-style4 .top-form-minicart, .header-style6 .top-form-minicart {
+    background-image: none;
+    padding-left: 12px;
+  }
+  .yt-main-menu {
+    padding: 0;
+  }
+  .sidebar-top-menu .top-login {
+    margin-right: 0;
+  }
+  .sidebar-top-menu .top-login .div-logined {
+    padding: 0 16px 0 0;
+  }
+  .top-form-minicart .wrapp-minicart .minicart-padding {
+    margin-right: 16px;
+  }
 }
 @media (max-width: 320px) {
   .block-title h2 {
@@ -1753,7 +1819,7 @@
   }
   .header-style4 .sidebar-top-menu .phone-icon-search,
   .header-style6 .sidebar-top-menu .phone-icon-search {
-    display: none;
+    /*display: none;*/
   }
   .header-style8 #header .header-msg .sidebar-top .widget ul#menu-top-header > li:first-child {
     border-right: 1px #666 solid;
@@ -1767,5 +1833,27 @@
   }
   .rtl .block-popup-login .block-content .col-reg.login-customer {
     padding-right: 0;
+  }
+  .header-style4 .top-form-minicart .top-minicart, .header-style6 .top-form-minicart .top-minicart {
+    padding-right: 12px;
+  }
+  .header-style4 .top-form-minicart .top-minicart:before, .header-style6 .top-form-minicart .top-minicart:before {
+    content: "";
+  }
+  .header-style4 .top-form-minicart, .header-style6 .top-form-minicart {
+    background-image: none;
+    padding-left: 12px;
+  }
+  .yt-main-menu {
+    padding: 0;
+  }
+  .sidebar-top-menu .top-login {
+    margin-right: 0;
+  }
+  .sidebar-top-menu .top-login .div-logined {
+    padding: 0 16px 0 0;
+  }
+  .top-form-minicart .wrapp-minicart .minicart-padding {
+    margin-right: 16px;
   }
 }

@@ -11,6 +11,9 @@
 	</ul>
 	<?php } else{?>
 		<div class="div-logined">
+			<a href="<?php echo home_url().'/my-account'; ?>" title="<?php esc_attr_e( 'Account', 'maxshop' ) ?>" class="logout"><?php _e('Account', 'maxshop'); ?></a>
+		</div>
+		<div class="div-logined">
 			<?php 
 				$user_id = get_current_user_id();
 				$user_info = get_userdata( $user_id );	
