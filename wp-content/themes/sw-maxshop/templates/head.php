@@ -12,4 +12,10 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url( home_url()); ?>/feed/">
 	<?php wp_head(); ?>
-</head>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+  		(adsbygoogle = window.adsbygoogle || []).push({
+    		google_ad_client: "ca-pub-5940156863258908",
+    		enable_page_level_ads: true
+  	});
+</script>
