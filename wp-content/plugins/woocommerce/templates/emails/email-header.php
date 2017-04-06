@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</head>
 	<body <?php echo is_rtl() ? 'rightmargin' : 'leftmargin'; ?>="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
 		<div id="wrapper" dir="<?php echo is_rtl() ? 'rtl' : 'ltr'?>">
-			<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+			<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" >
 				<tr>
 					<td align="center" valign="top">
 						<div id="template_header_image">
