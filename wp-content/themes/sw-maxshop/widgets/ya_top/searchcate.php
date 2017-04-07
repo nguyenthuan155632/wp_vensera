@@ -24,7 +24,7 @@
 				<div class="cat-wrapper">
 					<label class="label-search">
 						<select name="search_category" class="s1_option">
-							<option value=""><?php _e( 'All Categories', 'maxshop' ) ?></option>
+							<option value=""><?php _e( 'Danh mục', 'maxshop' ) ?></option>
 							<?php foreach( $product_categories as $cat ) {
 								$selected = ( isset($_GET['search_category'] ) && ($_GET['search_category'] == $cat->term_id )) ? 'selected=selected' : '';
 							echo '<option value="'. esc_attr( $cat-> term_id ) .'" '.$selected.'>' . esc_html( $cat->name ). '</option>';
@@ -34,7 +34,7 @@
 					</label>
 				</div>
 				<?php } ?>
-				<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s" placeholder="<?php _e( 'Search for products', 'maxshop' ); ?>" />
+				<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s" placeholder="<?php _e( 'Tìm kiếm sản phẩm', 'maxshop' ); ?>" />
 				<button type="submit" title="Search" class="fa fa-search button-search-pro form-button"></button>
 				<input type="hidden" name="search_posttype" value="product" />
 			</div>
