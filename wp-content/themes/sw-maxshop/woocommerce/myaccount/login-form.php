@@ -31,19 +31,15 @@ global $woocommerce; ?>
 			                <input type="submit" class="button btn-submit-login" name="login" value="<?php _e( 'Login', 'maxshop' ); ?>" />
 						</div>	
 					</div>
-					
+					 
 				</div>
 				<div class="col-reg login-customer">
 					<h2>NEW HERE?</h2>
 					<p class="note-reg">Registration is free and easy!</p>
-					<ul class="list-log">
-						<li>Faster checkout</li>
-						<li>Save multiple shipping addresses</li>
-						<li>View and track orders and more</li>
-					</ul>
 					<a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="Register" class="btn-reg-popup"><?php _e( 'Create an account', 'maxshop' ); ?></a>
+					<?php do_action( 'wordpress_social_login' ); ?>	
 				</div>
-				<div style="clear:both;"></div>
+				<div style="clear:both;"></div>				
 			</div>
 		</form>
 <div class="clear"></div>

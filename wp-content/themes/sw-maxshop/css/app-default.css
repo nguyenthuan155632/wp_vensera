@@ -374,7 +374,7 @@ ul.menu,
 .block-popup-login .block-content .col-reg.login-customer h2 {
   font-size: 116.67%;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-top: 15px;
 }
 .block-popup-login .block-content .note-reg {
   margin: 10px 0px;
@@ -406,10 +406,11 @@ ul.menu,
   text-transform: uppercase;
   display: inline-block;
   font-size: 116.67%;
-  margin-top: 15px;
   color: #fff !important;
   font-weight: bold;
   background-color: #ea3a3c;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 .block-popup-login .block-content .btn-reg-popup:hover {
   color: #fff;
