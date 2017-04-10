@@ -1527,7 +1527,7 @@
   }
   .woocommerce table.shop_table,
   .woocommerce-page table.shop_table {
-    /*display: block;*/
+    display: block;
     overflow: auto;
   }
   .woocommerce.rtl .products-nav .catalog-ordering,
