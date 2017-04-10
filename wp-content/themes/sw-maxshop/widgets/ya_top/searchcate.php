@@ -34,7 +34,7 @@
 					</label>
 				</div>
 				<?php } ?>
-				<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s" placeholder="<?php _e( 'Tìm kiếm sản phẩm', 'maxshop' ); ?>" />
+				<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s" placeholder="<?php _e( 'Search all products','maxshop'); ?>" />
 				<button type="submit" title="Search" class="fa fa-search button-search-pro form-button"></button>
 				<input type="hidden" name="search_posttype" value="product" />
 			</div>
