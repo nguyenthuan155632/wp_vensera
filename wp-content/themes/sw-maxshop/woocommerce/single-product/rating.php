@@ -31,7 +31,7 @@ if ( get_option( 'woocommerce_enable_review_rating' ) === 'no' ) {
 		<a href="#reviews" class="woocommerce-review-link" rel="nofollow"><?php printf( _n( '%s Review', '%s Review(s)', $rating_count, 'maxshop' ), '<span itemprop="ratingCount" class="count">' . $rating_count . '</span>' ); ?></a>
 	<?php $stock = ( $product->is_in_stock() )? 'in-stock' : 'out-stock' ; ?>
 	<div class="product-stock <?php echo esc_attr( $stock ); ?>">
-		<span><?php echo ( $product->is_in_stock() )? esc_html__( 'in stock', 'maxshop' ) : esc_html__( 'Out stock', 'maxshop' ); ?></span>
+		<span><?php echo ( $product->is_in_stock() )? esc_html__( 'Còn hàng', 'maxshop' ) : esc_html__( 'Hết hàng', 'maxshop' ); ?></span>
 	</div>
 </div>
 
@@ -42,13 +42,10 @@ if ( get_option( 'woocommerce_enable_review_rating' ) === 'no' ) {
 		<a href="#reviews" class="woocommerce-review-link" rel="nofollow"><?php printf( _n( '%s Review', '%s Review(s)', $rating_count, 'maxshop' ), '<span class="count">' . $rating_count . '</span>' ); ?></a>
 	<?php $stock = ( $product->is_in_stock() )? 'in-stock' : 'out-stock' ; ?>
 	<div class="product-stock <?php echo esc_attr( $stock ); ?>">
-		<span><?php echo ( $product->is_in_stock() )? esc_html__( 'in stock', 'maxshop' ) : esc_html__( 'Out stock', 'maxshop' ); ?></span>
+		<span><?php echo ( $product->is_in_stock() )? esc_html__( 'Còn hàng', 'maxshop' ) : esc_html__( 'Hết hàng', 'maxshop' ); ?></span>
 	</div>
 </div>
 
 <?php endif; ?>
 <?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
-<div class="product_meta">
-	<span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'maxshop' ); ?> <span class="sku" itemprop="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'maxshop' ); ?></span></span>
-</div>
 <?php endif; ?>
