@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
+//define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/var/www/html/wp_vensera/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'vensera');
 
@@ -59,6 +59,10 @@ define('AUTH_SALT',        'N(vwB`Gvf|3.M4$d;*`C8!,[E_8gu=n@=0a7/N7EH-GYy0],V5`G
 define('SECURE_AUTH_SALT', 'CA-4m[_z]=M/PP~*e:|FPKXF}V{+8@q*gA)qy?@h<+WEljG@{ WG}D#8H!&6wKjR');
 define('LOGGED_IN_SALT',   '2.7%kxiXL`,a4FN^jz8.1G`/QBuw&nuV~F$Q@B3.U$VU*zY`w/~)m9E]`tcYZ=&w');
 define('NONCE_SALT',       '<GR}thA5d|F&:!N=Y?&l?W9y4=A}v`@}y2x/90<Vn.@N@}AXU:7f@@oM.L`N 4Vl');
+
+
+define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAIZ3ZTNRULJEV5DNQ' );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
 
 /**#@-*/
 
