@@ -3087,9 +3087,9 @@ ul.menu,
 }
 .woocommerce .cart-collaterals .cart_totals,
 .woocommerce-page .cart-collaterals .cart_totals {
-  width: 48%;
-  float: left;
-  margin-right: 2%;
+  /*width: 48%;*/
+  /*float: left;*/
+  /*margin-right: 2%;*/
 }
 .woocommerce .cart-collaterals .cart_totals h2,
 .woocommerce-page .cart-collaterals .cart_totals h2 {

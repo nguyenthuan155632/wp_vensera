@@ -77,7 +77,7 @@ $search = ya_options()->getCpanelValue('search');
 									<a href="javascript:void(0)" class="phone-icon-category" href="#" title="<?php esc_attr_e( 'Categories', 'maxshop' ) ?>"><span class="icon-category"></span><?php esc_html_e( 'Categories', 'maxshop' ) ?></a>
 									<a class="phone-icon-search fa fa-search" href="#" title="<?php esc_attr_e( 'Search', 'maxshop' ) ?>"></a>
 									<div class="col-lg-3 col-md-3 col-sm-6 vertical_megamenu-4 vertical_megamenu-header">
-										<div class="button-ver-menu"><?php _e('All categories','maxshop')?></div>
+										<div class="button-ver-menu"><?php _e('Danh mục','maxshop')?></div>
 										<?php echo do_shortcode('[ya_mega_menu menu_locate="left-menu-shop-5"]') ?>
 									</div>
 									<?php if($search !='') {?>

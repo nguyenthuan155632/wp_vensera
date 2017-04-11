@@ -56,7 +56,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 	font-weight: bold;
 	line-height: 100%;
 	vertical-align: middle;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 #template_header h1,
@@ -101,7 +101,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 
 #body_content_inner {
 	color: <?php echo esc_attr( $text_lighter_20 ); ?>;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 14px;
 	line-height: 150%;
 	text-align: <?php echo is_rtl() ? 'right' : 'left'; ?>;
@@ -114,7 +114,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 
 .text {
 	color: <?php echo esc_attr( $text ); ?>;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 .link {
@@ -128,7 +128,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 
 h1 {
 	color: <?php echo esc_attr( $base ); ?>;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 150%;
@@ -141,7 +141,7 @@ h1 {
 h2 {
 	color: <?php echo esc_attr( $base ); ?>;
 	display: block;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 130%;
@@ -152,7 +152,7 @@ h2 {
 h3 {
 	color: <?php echo esc_attr( $base ); ?>;
 	display: block;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 130%;

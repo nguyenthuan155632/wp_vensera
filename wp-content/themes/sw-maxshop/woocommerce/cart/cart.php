@@ -140,8 +140,31 @@ do_action( 'woocommerce_before_cart' ); ?>
 </form>
 
 <div class="cart-collaterals">
-		<div class="cart_total">
+		<div class="cart_total col-sm-6">
 				<?php do_action( 'woocommerce_cart_collaterals' ); ?>
+		</div>
+		<div class="col-sm-6">
+			<table class="table table-hover text-left">
+			    <thead>
+			      <tr>
+			        <th style="font-size: 24px; font-weight: normal;">Phí ship áp dụng cho đơn hàng</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td>Phí ship 20.000 VNĐ: Quận Phú Nhuận, Quận Gò Vấp, Quận Bình Tân, Quận Tân Phú, Quận Bình Thạnh, Quận Tân Bình, Quận 3, Quận 5, Quận 10, Quận 11, Quận 12</td>
+			      </tr>
+			      <tr>
+			        <td>Các quận còn lại: 35.000 VNĐ</td>
+			      </tr>
+			      <tr>
+			        <td>Các tỉnh thành: tùy vào nhiều yếu tố</td>
+			      </tr>
+			      <tr>
+			        <td>Các đơn hàng trên 500.000 VNĐ sẽ được miễn phí tiền ship (các tỉnh thành khác TP.HCM sẽ là 700.000 VNĐ)</td>
+			      </tr>
+			    </tbody>
+		  	</table>
 		</div>	
 </div>
 
