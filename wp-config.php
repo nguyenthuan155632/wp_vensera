@@ -60,10 +60,6 @@ define('SECURE_AUTH_SALT', 'CA-4m[_z]=M/PP~*e:|FPKXF}V{+8@q*gA)qy?@h<+WEljG@{ WG
 define('LOGGED_IN_SALT',   '2.7%kxiXL`,a4FN^jz8.1G`/QBuw&nuV~F$Q@B3.U$VU*zY`w/~)m9E]`tcYZ=&w');
 define('NONCE_SALT',       '<GR}thA5d|F&:!N=Y?&l?W9y4=A}v`@}y2x/90<Vn.@N@}AXU:7f@@oM.L`N 4Vl');
 
-
-define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAIBRS5SKLD5NYWBOQ' );
-define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
-
 /**#@-*/
 
 /**
