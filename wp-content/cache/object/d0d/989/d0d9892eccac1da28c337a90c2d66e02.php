@@ -1,1 +1,0 @@
-W=òX<?php exit; ?>a:1:{s:7:"content";s:80:"{"time":1492270242,"php_agent":"<span class=\"w3tc-disabled\">disabled<\/span>"}";}

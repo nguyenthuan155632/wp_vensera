@@ -1,6 +1,6 @@
 <?php
 /** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
+ //Added by WP-Cache Manager
 
 /** Enable W3 Total Cache */
  //Added by WP-Cache Manager
@@ -27,6 +27,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
  //Added by WP-Cache Manager
+//define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/var/www/html/wp_vensera/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'vensera');
 
