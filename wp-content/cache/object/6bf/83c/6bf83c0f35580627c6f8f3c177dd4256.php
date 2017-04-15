@@ -1,0 +1,6 @@
+�=�X<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:4:"8004";s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-04-06 14:51:31";s:13:"post_date_gmt";s:19:"2017-04-06 07:51:31";s:12:"post_content";s:387:"Tên sản phẩm: đồ bộ nơ hoa cho bé gái
+Kích thước phù hợp cho bé:
+<img class="alignnone size-medium" src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/17426264_757651517724081_5509937115256796651_n.jpg?oh=d88174921503232485b6e0a5318210e1&amp;oe=598BEEAC" width="300" height="500" />
+Chất liệu: Thun cotton
+Xuất xứ: Việt Nam.
+Mã sản phẩm: B1701.";s:10:"post_title";s:30:"Đồ bộ thỏ xinh bé gái";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:21:"do-bo-tho-xinh-be-gai";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-04-11 13:16:42";s:17:"post_modified_gmt";s:19:"2017-04-11 06:16:42";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:49:"http://vensera.com/?post_type=product&#038;p=8004";s:10:"menu_order";s:1:"0";s:9:"post_type";s:7:"product";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";}}

@@ -1,4 +1,10 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
+/** Enable W3 Total Cache */
+ //Added by WP-Cache Manager
+
 /**
  * The base configuration for WordPress
  *
@@ -20,27 +26,27 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-//define('WP_CACHE', true); //Added by WP-Cache Manager
+ //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/var/www/html/wp_vensera/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'vensera');
 
 /** MySQL database username */
-// define('DB_USER', 'vensera');
-define('DB_USER', 'root');
+define('DB_USER', 'vensera');
+// define('DB_USER', 'root');
 
 /** MySQL database password */
-// define('DB_PASSWORD', '15563200025ff0');
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '15563200025ff0');
+// define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-// define('DB_HOST', 'venserasingapore.canthyzfeuc3.ap-southeast-1.rds.amazonaws.com');
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'vensera.cisdtmhkjjzs.ap-northeast-1.rds.amazonaws.com');
+// define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+define('DB_COLLATE', 'utf8_general_ci');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -59,6 +65,9 @@ define('AUTH_SALT',        'N(vwB`Gvf|3.M4$d;*`C8!,[E_8gu=n@=0a7/N7EH-GYy0],V5`G
 define('SECURE_AUTH_SALT', 'CA-4m[_z]=M/PP~*e:|FPKXF}V{+8@q*gA)qy?@h<+WEljG@{ WG}D#8H!&6wKjR');
 define('LOGGED_IN_SALT',   '2.7%kxiXL`,a4FN^jz8.1G`/QBuw&nuV~F$Q@B3.U$VU*zY`w/~)m9E]`tcYZ=&w');
 define('NONCE_SALT',       '<GR}thA5d|F&:!N=Y?&l?W9y4=A}v`@}y2x/90<Vn.@N@}AXU:7f@@oM.L`N 4Vl');
+
+define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJOKB7AXQLSZ4EPTQ' );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
 
 /**#@-*/
 

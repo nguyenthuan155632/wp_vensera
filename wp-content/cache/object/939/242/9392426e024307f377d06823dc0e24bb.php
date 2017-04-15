@@ -1,0 +1,1 @@
+=ÚX<?php exit; ?>a:1:{s:7:"content";s:189:"a:5:{s:22:"sw-maxshop-child-theme";s:7:"/themes";s:10:"sw-maxshop";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:15:"twentyseventeen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}";}
