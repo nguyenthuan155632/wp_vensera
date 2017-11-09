@@ -1,2 +1,0 @@
-// source --> //www.vensera.com/wp-content/plugins/woocommerce/assets/js/frontend/lost-password.min.js 
-jQuery(function(a){a(".lost_reset_password").on("submit",function(){a('input[type="submit"]',this).attr("disabled","disabled")})});
